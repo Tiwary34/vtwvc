@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:gold;
+}
+
+button{
+	width: 200px;
+	padding: 15px 0;
+	text-align: center;
+	margin: 20px;
+	border-radius:25px ;
+	font-weight: bold;
+	border: 2px solid #000000;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+   }
+   span{
+	background: #009688;
+	height: 100%;
+	width: 0;
+	border-radius: 25px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	transition: 0.05s;
+   }
+   button:hover span{
+	width: 100%;
+   }
